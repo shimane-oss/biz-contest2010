@@ -1,0 +1,93 @@
+@charset "UTF-8";
+/* 募集部門 */
+/* 2009-10-23T16:30:28+09:00 */
+
+@import url("/biz-contest2010/common/css/common.css");
+
+/* main > doc */
+div.doc p.note{
+	margin-top: 30px;
+}
+
+div.doc ul.notes li{
+	border-top: none;
+}
+
+/* main > doc > section */
+body.category div.doc div.business{
+	margin-bottom: 30px;
+	padding-bottom: 30px;
+	border-bottom: dotted 2px #ccc;
+}
+
+body.category div.doc div.student{
+	margin-bottom: 0;
+}
+
+/* main > doc > section > section-header */
+div.doc div.section-header{
+	width: 560px;
+	overflow: hidden;
+	margin-bottom: 15px;
+}
+
+div.doc h2{
+	float: left;
+	margin-right: 5px;
+	margin-bottom: 0;
+}
+
+div.doc p.summary{
+	margin-top: 1px;
+	margin-bottom: 0;
+}
+
+/* main > doc > section > section-body */
+div.doc div.section-body{
+	width: 560px;
+	overflow: hidden;
+}
+
+div.doc div.section-body p{
+	width: 265px;
+	float: left;
+	margin-right: 30px;
+}
+
+/* main > doc > section > section-body > section */
+div.doc div.section-body div.section{
+	width: 265px;
+	margin: 0;
+	float: right
+}
+
+div.doc div.section-body h3{
+	margin-top: 0.2em;
+	margin-bottom: 3px;
+	font-size: 100%;
+	color: #5ab42e;
+}
+
+div.doc div.section-body dl.compact{
+	border-bottom: solid 3px #ccc;
+}
+
+div.doc div.section-body dl.compact dt,
+div.doc div.section-body dl.compact dd{
+	padding: 0.5em 0;
+	border-top: solid 1px #ccc;
+}
+
+div.doc div.section-body dl.compact dt.first,
+div.doc div.section-body dl.compact dd.first{
+	border-top: solid 3px #ccc;
+}
+
+div.doc div.section-body dl.compact dt{
+	width: 10.5em;
+}
+
+div.doc div.section-body dl.compact span.note{
+	margin-left: 0.5em;
+	font-size: 90%;
+}

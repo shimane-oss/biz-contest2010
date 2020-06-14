@@ -1,0 +1,258 @@
+@charset "UTF-8";
+/* 全ページ共通 */
+/* 2010-01-16T06:24:13+09:00 */
+
+/* Override */
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #fff;
+	font-family: 'ＭＳ Ｐゴシック', メイリオ, Meiryo, 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', sans-serif;
+	font-size: 90%;
+	color: #444;
+}
+
+/* for Win IE7 */
+*+html body{
+	font-family: メイリオ, Meiryo, sans-serif;
+}
+
+/* for MacOSX Safari3 */
+body:last-child:not(:root:root){
+	font-size: 85%;
+}
+
+h1, h2, h3, h4, h5, h6,
+p,
+dl, dt, dd, ul, ol, li{
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+}
+
+ul, ol{
+	list-style-position: outside;
+}
+
+address,
+em{
+	font-style: normal;
+}
+
+th{
+	font-weight: normal;
+	text-align:left;
+}
+
+a:link{
+	background-color: transparent;
+	text-decoration: underline;
+	color: #2d9f26;
+}
+
+a:visited{
+	background-color: transparent;
+	text-decoration: underline;
+	color: #4b6b55;
+}
+
+a:hover,
+a:active{
+	background-color: transparent;
+	text-decoration: none;
+	color: #000;
+}
+
+a img{
+	border: none;
+}
+
+/* ------------------------------------------- */
+body{
+	width: 750px;
+	margin: 0 auto;
+	padding-bottom: 20px;
+}
+
+p.logo{
+	width: 730px;
+	height: 90px;
+	margin-bottom: 20px;
+	padding-top: 10px;
+	padding-left: 20px;
+	background: url("/biz-contest2010/common/images/bg_header.gif") no-repeat 0 0;
+}
+
+/* main */
+div.main{
+	width: 750px;
+	overflow: hidden;
+	margin-bottom: 30px;
+}
+
+/* main > doc */
+div.doc{
+	width: 570px;
+	float: right;
+}
+
+div.doc p,
+div.doc li{
+	line-height: 1.7;
+}
+
+div.doc h1{
+	margin-bottom: 20px;
+}
+
+div.doc div.section{
+	margin-bottom: 20px;
+}
+
+div.doc h2{
+	margin-bottom: 10px;
+}
+
+div.doc p.note{
+	margin-left: 1em;
+	line-height: 1.3;
+	text-indent: -1em;
+	font-size: 90%;
+	color: #666;
+}
+
+div.doc ul{
+	list-style: none;
+}
+
+div.doc ul li{
+	margin-bottom: 0.5em;
+	padding-left: 18px;
+	background: url("/biz-contest2010/common/images/icon_asterisk.gif") no-repeat 0 0.4em;
+}
+
+div.doc ul.notes li{
+	margin-top: 0.5em;
+	margin-bottom: 0;
+	padding-top: 0.5em;
+	background-position: 0 0.8em;
+	border-top: dotted 2px #ccc;
+}
+
+div.doc ul.notes li.first{
+	margin-top: 0;
+	padding-top: 0;
+	background-position: 0 0.4em;
+	border-top: none;
+}
+
+div.doc dl.compact dt{
+	float: left;
+}
+
+div.doc dl.compact dd{
+	overflow: hidden;
+	_margin-left: -3px;
+}
+
+div.doc em{
+	font-weight: bold;
+	color: #222;
+}
+
+/* main > doc > deadline */
+div.doc div.deadline{
+	margin-bottom: 0;
+}
+
+div.doc div.deadline p{
+	margin-bottom: 5px;
+}
+
+div.doc div.deadline p em{
+	font-size: 120%;
+}
+
+div.doc div.deadline dl dt{
+	width: 6em;
+}
+
+div.doc div.deadline{
+	margin-top: 20px;
+	margin-bottom: 0;
+}
+
+div.doc p.deadline{
+	line-height: 1.3;
+}
+
+div.doc p strong{
+	font-size: 120%;
+	color: #c00;
+}
+
+/* main > menu */
+ul.menu{
+	width: 150px;
+	float: left;
+	padding-bottom: 5px;
+	background: #5ab42e url("/biz-contest2010/common/images/bg_menu_bottom.gif") no-repeat left bottom;
+	list-style: none;
+	color: #fff;
+}
+
+ul.menu li{
+	padding-left: 10px;
+	padding-bottom: 10px;
+}
+
+ul.menu li.submenu{
+	margin-top: 5px;
+	padding-top: 15px;
+	border-top: dashed 1px #fff;
+}
+
+ul.menu li.first{
+	padding-top: 15px;
+	background: url("/biz-contest2010/common/images/bg_menu_top.gif") no-repeat 0 0;
+}
+
+ul.menu li a{
+	color: #fff;
+}
+
+/* footer */
+div.footer p.pagetop{
+	margin-bottom: 20px;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	border-top: solid 3px #5ab42e;
+	border-bottom: solid 1px #5ab42e;
+}
+
+div.footer p.pagetop{
+	text-align: right;
+	font-size: 90%;
+}
+
+div.footer p.pagetop a{
+	padding-left: 17px;
+	background: url("/biz-contest2010/common/images/icon_pagetop.gif") no-repeat 0 50%;
+}
+
+div.footer address{
+	display: block;
+	text-align: center;
+	font-size: 90%;
+}
+
+div.footer address span.name{
+	display: block;
+	margin-bottom: 0.5em;
+	line-height: 1.5;
+	font-size: 110%;
+}
+
+div.footer address span.tel{
+	margin-right: 1em;
+}

@@ -1,0 +1,151 @@
+@charset "UTF-8";
+/* ï\è≤éÆïÒçê */
+/* 2010-02-23T07:37:33+09:00 */
+
+@import url("/biz-contest2010/common/css/common.css");
+
+body{
+	margin: 0;
+	padding: 0;
+	width: auto;
+}
+
+div.container{
+	margin: 0 auto;
+	padding-bottom: 20px;
+	width: 750px;
+}
+
+span.line{
+	display: block;
+}
+
+body.final div.doc{
+	overflow: hidden;
+}
+
+body.final div.doc a.pdf{
+	padding-bottom: 5px;
+	padding-left: 20px;
+	background: url("/biz-contest2010/common/images/icon_pdf.gif") no-repeat 0 0;
+}
+
+body.final div.result{
+	width: 570px;
+	overflow: hidden;
+	margin-bottom: 30px;
+	padding-bottom: 10px;
+	border-bottom: solid 2px #ccc;
+}
+
+body.final div.result p.more{
+	clear: both;
+	padding-top: 10px;
+	line-height: 1.4;
+	border-top: solid 1px #ccc;
+}
+
+body.final div.section{
+	width: 270px;
+	margin-bottom: 0;
+}
+
+body.final div.section.business{
+	float: left;
+}
+
+body.final div.section.student{
+	float: right;
+}
+
+body.final div.section h3{
+	margin-bottom: 15px;
+	padding: 3px 8px;
+	background: #5ab42e;
+	font-weight: normal;
+	color: #fff;
+}
+
+body.final div.section h4{
+	margin-bottom: 5px;
+	color: #5ab42e;
+}
+
+body.final div.section h4 span.note{
+	margin-left: 0.5em;
+	font-weight: normal;
+	font-size: 80%;
+}
+
+body.final div.section dl{
+	margin-bottom: 15px;
+	border-bottom: dotted 2px #ccc;
+}
+
+body.final div.section dl.last{
+	margin-bottom: 0;
+	border: none;
+}
+
+body.final div.section dt{
+	margin-bottom: 3px;
+	padding-left: 15px;
+	background: url("/biz-contest2010/common/images/icon_asterisk.gif") no-repeat 0 0.25em;
+	font-weight: bold;
+	font-size: 120%;
+}
+
+body.final div.section dd{
+	margin-bottom: 12px;
+	margin-left: 15px;
+	line-height: 1.3;
+}
+
+body.final h2{
+	color: #1fa3d6;
+}
+
+body.final div.picsline{
+	width: 594px;
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+
+body.final div.picsline div.pic{
+	width: 182px;
+	float: left;
+	margin-right: 12px;
+}
+
+body.final div.pic img{
+	display: block;
+	margin-bottom: 5px;
+}
+
+body.final div.pic span.caption{
+	display: block;
+	line-height: 1.3;
+	text-align: center;
+	font-size: 80%;
+	color: #777;
+}
+
+body.final div.pic.mainimage{
+	width: 450px;
+	float: none;
+	margin: 0 auto 10px auto;
+	text-align: center;
+}
+
+body.final div.pic a:link img{
+	border: solid 2px #5ab42e;
+}
+
+body.final div.pic a:visited img{
+	border: solid 2px #b9e17d;
+}
+
+body.final div.pic a:hover img,
+body.final div.pic a:hover active{
+	border: solid 2px #f8e607;
+}

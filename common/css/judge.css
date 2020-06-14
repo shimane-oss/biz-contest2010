@@ -1,0 +1,45 @@
+@charset "UTF-8";
+/* 審査方法 */
+/* 2009-10-23T16:30:19+09:00 */
+
+@import url("/biz-contest2010/common/css/common.css");
+
+body.judge div.doc dl.compact{
+	margin-top: 0.75em;
+	margin-bottom: 25px;
+	border-bottom: solid 3px #ccc;
+}
+
+body.judge div.doc dl.compact dt,
+body.judge div.doc dl.compact dd{
+	padding: 0.5em 0;
+	border-top: solid 1px #ccc;
+}
+
+body.judge div.doc dl.compact dt.first,
+body.judge div.doc dl.compact dd.first{
+	border-top: solid 3px #ccc;
+}
+
+body.judge div.doc dl.compact dt{
+	width: 12em;
+	clear: both;
+	padding-left: 10px;
+	font-weight: bold;
+}
+
+body.judge div.doc ul{
+	margin-bottom: 10px;
+	margin-left: 2px;
+}
+
+body.judge div.doc ul li{
+	margin: 0;
+	padding-bottom: 0;
+
+	border: none;
+}
+
+body.judge div.doc div.committee{
+	margin-bottom: 0;
+}

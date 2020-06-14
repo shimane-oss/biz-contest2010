@@ -1,0 +1,49 @@
+@charset "UTF-8";
+/* ホーム */
+/* 2010-02-09T18:17:57+09:00 */
+
+@import url("/biz-contest2010/common/css/common.css");
+
+body.home{
+	padding-top: 15px;
+}
+
+body.home h1.logo{
+	margin-bottom: 15px;
+}
+
+body.home div.mainpic{
+	margin-bottom: 20px;
+}
+
+body.home p.award{
+	margin-top: 1em;
+}
+
+body.home div.info{
+	margin-top: 2em;
+	padding-top: 1em;
+	border-top: solid 2px #5ab42e;
+}
+
+body.home div.info h2{
+	font-size: 110%;
+	color: #4f9d28;
+}
+
+body.home div.info dl.compact{
+	margin-top: 0.5em;
+	margin-bottom: 1em;
+	border-bottom: dotted 2px #ccc;
+}
+
+body.home div.info dl.compact dt,
+body.home div.info dl.compact dd{
+	padding-bottom: 0.5em;
+	padding-top: 0.5em;
+	border-top: dotted 2px #ccc;
+}
+
+body.home div.info dl.compact dt{
+	width: 4em;
+}

@@ -1,0 +1,144 @@
+@charset "UTF-8";
+/* Award */
+/* 2010-02-03T12:16:51+09:00 */
+
+@import url("/biz-contest2010/common/css/common.css");
+
+body.award a.pdf{
+	padding-bottom: 5px;
+	padding-left: 20px;
+	background: url("/biz-contest2010/common/images/icon_pdf.gif") no-repeat 0 0;
+}
+
+body.award p.summary{
+	margin-bottom: 10px;
+	font-size: 110%;
+}
+
+body.award p.agenda{
+	margin-top: 0.75em;
+	margin-bottom: 20px;
+}
+
+body.award div.doc dl.compact{
+	margin-top: 20px;
+	border-top: solid 3px #ccc;
+	border-bottom: solid 3px #ccc;
+}
+
+body.award div.doc dl.compact dt,
+body.award div.doc dl.compact dd,
+body.award div.doc dl.compact li{
+	line-height: 1.5;
+}
+
+body.award div.doc dl.compact dt,
+body.award div.doc dl.compact dd{
+	padding: 0.5em 0;
+	border-top: solid 1px #ccc;
+}
+
+body.award div.doc dl.compact dt{
+	width: 5em;
+	padding-left: 1em;
+	font-weight: bold;
+}
+
+body.award div.doc dl.compact dt.first,
+body.award div.doc dl.compact dd.first{
+	border-top: none;
+}
+
+body.award div.doc dl.compact dd{
+	_margin-left: 6em;
+}
+
+/* body.award div.doc dl.compact dt.longdesc{
+	width: auto;
+	float: none;
+}
+
+body.award div.doc dl.compact dd.longdesc{
+	margin-left: 0;
+	padding-top: 0;
+	padding-left: 6.25em;
+	border-top: none;
+	border-bottom: solid 3px #ccc;
+} */
+
+body.award div.doc dl.compact ul{
+	margin-bottom: -0.5em;
+}
+
+body.award div.doc dl.compact ul.list{
+	margin-bottom: 1px;
+}
+
+body.award div.doc dl.compact ul.list li{
+	margin-bottom: 0;
+}
+
+body.award div.result{
+	width: 570px;
+	overflow: hidden;
+}
+
+body.award div.result div.section{
+	width: 270px;
+	margin-bottom: 0;
+}
+
+body.award div.result div.section.business{
+	float: left;
+}
+
+body.award div.result div.section.student{
+	float: right;
+}
+
+body.award div.result h2{
+	font-size: 120%;
+	color: #5ab42e;
+}
+
+body.award div.result div.section h3{
+	margin-bottom: 15px;
+	padding: 3px 8px;
+	background: #5ab42e;
+	font-weight: normal;
+	color: #fff;
+}
+
+body.award div.result div.section dl{
+	margin-bottom: 15px;
+}
+
+body.award div.result div.section dt{
+	margin-bottom: 3px;
+	padding-left: 15px;
+	background: url("../images/icon_asterisk.gif") no-repeat 0 0.25em;
+	font-weight: bold;
+	font-size: 100%;
+}
+
+body.award div.result div.section dd{
+	margin-bottom: 12px;
+	padding-left: 15px;
+	padding-bottom: 10px;
+	border-bottom: dotted 2px #ccc;
+	line-height: 1.3;
+}
+
+body.award div.result div.section dd.last{
+	margin-bottom: 0;
+	padding-bottom: 0;
+	border-bottom: none;
+}
+
+body.award div.result p.more{
+	clear: both;
+	margin-bottom: 20px;
+	padding-top: 10px;
+	line-height: 1.4;
+	border-top: solid 1px #ccc;
+}

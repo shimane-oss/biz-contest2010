@@ -1,0 +1,42 @@
+@charset "UTF-8";
+/* Q&A */
+/* 2009-11-11T14:36:21+09:00 */
+
+@import url("/biz-contest2010/common/css/common.css");
+
+body.faq dl dt,
+body.faq dl dd{
+	line-height: 1.7;
+}
+
+body.faq dl dt{
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	padding-top: 0.5em;
+	padding-left: 18px;
+	background: url("/biz-contest2010/common/images/icon_asterisk.gif") no-repeat 0 0.8em;
+		border-top: dotted 2px #ccc;
+	font-weight: bold;
+}
+
+body.faq dl dd{
+	padding-left: 18px;
+}
+
+body.faq dl dt.first{
+	padding-top: 0;
+	border-top: none;
+	background-position: 0 0.4em;
+}
+
+body.faq dl ul{
+	margin-top: 0.5em;
+	margin-left: 1em;
+	padding-bottom: 0.5em;
+}
+
+body.faq dl ul li{
+	padding-top: 0;
+	margin-bottom: 0.25em;
+	line-height: 1.5;
+}
